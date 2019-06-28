@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: black;
+    color: white;
+}
+
+header ul {
+    width: 200px;
+    display: inline-block;
+    text-align: right
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header h1 {
+    margin: 0px;
+    width: 100px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+section#cover {
+    text-align: center;
+    margin-top: 40px;
+}
+
+section#alpes {
+    text-align: center;
+}
+
+section#alpes article img {
+    width: 500px;
+}
+
+section#coloradas {
+    text-align: center;
+}
+
+section#coloradas article img{
+    width: 500px;
+}
+
+section#descripcion {
+    text-align: center
+}
+
+section#listado-tours {
+    background-color: white;
+}
+
+section#listado-tours article {
+    text-align: center;
+}
+
+section#listado-tours article img {
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 700px) {
+    section#listado-tours article img {
+        width: 500px;
+}
+}
+
